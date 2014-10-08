@@ -18,14 +18,16 @@ namespace NoSqlBenchClient
         }
 
         private void ConfigureRoutes()
-        {
-            var tt = base.VirtualPathRoot;
-
+        { 
+            this.MapHttpAttributeRoutes();
+            
             Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+           
         }
 
         private void ConfigureJsonSerialization()
