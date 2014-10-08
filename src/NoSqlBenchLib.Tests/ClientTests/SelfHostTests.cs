@@ -19,7 +19,7 @@ namespace NoSqlBenchLib.Tests.ClientTests
             string baseUri = null;
             using (var server = CreateServer(out baseUri))
             {
-                HttpResponseMessage response = new HttpClient().GetAsync(baseUri + "/EchoString" ).Result;
+                HttpResponseMessage response = new HttpClient().GetAsync(baseUri + "/api/EchoString" ).Result;
                 response.EnsureSuccessStatusCode();
             }
         }
