@@ -12,6 +12,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{728673
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSqlBenchLib", "NoSqlBenchLib\NoSqlBenchLib.csproj", "{3FABD7CC-3E87-4306-B88F-E0E131591BA6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSqlBenchLib.Tests", "NoSqlBenchLib.Tests\NoSqlBenchLib.Tests.csproj", "{9927E0A4-6116-4353-B985-4E1F9112FBD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{0B64C586-BCA0-460B-B115-1B6D94CEC5A9}"
+	ProjectSection(SolutionItems) = preProject
+		libs\placeholder.txt = libs\placeholder.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSqlBenchClient", "NoSqlBenchClient\NoSqlBenchClient.csproj", "{FD40AE3B-F64E-4A46-8426-4C7A3AAAD3CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +31,14 @@ Global
 		{3FABD7CC-3E87-4306-B88F-E0E131591BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FABD7CC-3E87-4306-B88F-E0E131591BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FABD7CC-3E87-4306-B88F-E0E131591BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9927E0A4-6116-4353-B985-4E1F9112FBD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9927E0A4-6116-4353-B985-4E1F9112FBD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9927E0A4-6116-4353-B985-4E1F9112FBD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9927E0A4-6116-4353-B985-4E1F9112FBD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD40AE3B-F64E-4A46-8426-4C7A3AAAD3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD40AE3B-F64E-4A46-8426-4C7A3AAAD3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD40AE3B-F64E-4A46-8426-4C7A3AAAD3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD40AE3B-F64E-4A46-8426-4C7A3AAAD3CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
